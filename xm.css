@@ -5,6 +5,7 @@
 }
 html,body{
 	width: 100%;
+	height: 100%;
 }
    video {
     position: fixed;
@@ -13,6 +14,8 @@ html,body{
     right: auto;
     width: 100%;
     z-index: -10;
+   height: 100%;
+   object-fit: fill;
    } 
    .stars {
     position: absolute;
